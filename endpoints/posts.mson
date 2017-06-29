@@ -1,0 +1,28 @@
+
+FORMAT: 1A
+
+# Posts
+
+# GET /posts
++ Response 200 (application/json)
+
+	{
+		timestamp: '',
+		body: [
+			{
+				title: 'How to write good API documentation',
+				authorEmail: 'foo@bar.com'
+			}
+		]
+	}
+
+# GET /posts/:id
++ Response 200 (application/json)
+
+	{
+		timestamp: '',
+		body: {
+			title: 'How to write good API documentation',
+			authorEmail: 'foo@bar.com'
+		}
+	}
