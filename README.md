@@ -5,4 +5,4 @@ Testing testing.
 
 - [root](./root.apib)
 - [posts](./endpoints/posts.apib)
-- users
+- [messages](./endpoints/messages.apib)
