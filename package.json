@@ -1,0 +1,23 @@
+{
+  "name": "api-blueprint-test",
+  "version": "1.0.0",
+  "description": "Testing testing.",
+  "main": "index.js",
+  "scripts": {
+    "build": "aglio --theme-full-width --theme-variables slate -i root.apib -o build/index.html",
+    "dev": "aglio --theme-full-width --theme-variables slate -i root.apib -o build/index.html -s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eiskis/api-blueprint-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eiskis/api-blueprint-test/issues"
+  },
+  "homepage": "https://github.com/Eiskis/api-blueprint-test#readme",
+  "devDependencies": {
+    "aglio": "^2.3.0"
+  }
+}

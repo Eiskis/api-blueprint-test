@@ -1,3 +1,6 @@
+# Output dir
+/build
+
 # Logs
 logs
 *.log
