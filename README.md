@@ -3,6 +3,6 @@
 
 Testing testing.
 
-- [root](./root.mson)
-- [posts](./endpoints/posts.mson)
-- [users](./endpoints/users.mson)
+- [root](./root.apib)
+- [posts](./endpoints/posts.apib)
+- users
