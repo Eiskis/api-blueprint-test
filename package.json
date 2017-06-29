@@ -4,8 +4,8 @@
   "description": "Testing testing.",
   "main": "index.js",
   "scripts": {
-    "build": "aglio --theme-full-width --theme-variables slate -i root.apib -o build/index.html",
-    "dev": "aglio --theme-full-width --theme-variables slate -i root.apib -o build/index.html -s"
+    "build": "aglio --theme-full-width --theme-template triple --theme-variables streak -i root.apib -o build/index.html",
+    "dev": "aglio --theme-full-width --theme-template triple --theme-variables streak -i root.apib -o build/index.html -s -p 3030"
   },
   "repository": {
     "type": "git",
