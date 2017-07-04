@@ -3,7 +3,7 @@ machine:
     version: 8.1.2
 dependencies:
   override:
-    npm install
+    - npm install
 compile:
   override:
     - npm run build
