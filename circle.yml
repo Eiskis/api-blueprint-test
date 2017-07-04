@@ -4,11 +4,11 @@ machine:
 dependencies:
   override:
     npm install
-deployment:
-  production:
-    branch: master
-    heroku:
-      appname: apiblueprint
 test:
   override:
     - echo "test"
+# deployment:
+#   production:
+#     branch: master
+#     heroku:
+#       appname: apiblueprint
