@@ -4,6 +4,7 @@
   "description": "Testing testing.",
   "main": "index.js",
   "scripts": {
+    "test": "echo 'Foo'",
     "build": "aglio --theme-full-width --theme-template triple --theme-variables streak -i root.apib -o build/index.html",
     "dev": "aglio --theme-full-width --theme-template triple --theme-variables streak -i root.apib -o build/index.html -s -p 3030"
   },
