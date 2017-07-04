@@ -9,7 +9,7 @@ compile:
     - npm run build
 test:
   override:
-    - echo "test"
+    - npm run test
 # deployment:
 #   production:
 #     branch: master
