@@ -1,5 +1,14 @@
+machine:
+  node:
+    version: 8.1.2
+dependencies:
+  override:
+    npm install
 deployment:
   production:
     branch: master
     heroku:
       appname: apiblueprint
+test:
+  override:
+    - echo "test"
